@@ -1,0 +1,90 @@
+.place-Card {
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 40%;
+  width: 300px;
+  box-shadow: -5px 2px 18px 4px #ccc;
+}
+.Card-Img {
+  position: relative;
+  top: -50px;
+  left: 29%;
+  width: 45%;
+  /* height: 30%; */
+  border-radius: 50%;
+}
+.cover-photo {
+  background: brown;
+  width: 300px;
+  height: 80px;
+}
+
+.para {
+  font-size: small;
+  font-family: sans-serif;
+  text-align: justify;
+}
+.name {
+  background-color: brown;
+  color: aliceblue;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+.pro-name {
+  font-size: large;
+}
+.vission {
+  background-color: rgba(112, 24, 24, 0.85);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+.para-heading{
+  background: url("../../../img/College.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.vission-main-title {
+  /* background-color: rgba(59, 56, 56, 0.85); */
+    background-color: rgba(112, 24, 24, 0.85);
+  /* background-color: rgba(54, 46, 46, 0.85); */
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.prof-title-multi{
+  color: brown;
+  font-size:x-large;
+  font-family: sans-serif;  
+}  
+.mission {
+  background-color: brown;
+  color: aliceblue;
+  padding: 5px;
+}
+.TAPO {
+  background-color: brown;
+  color: aliceblue;
+  padding: 8px;
+}
+.place-Card-Banner {
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: -5px 2px 18px 4px #ccc;
+}
+.employeecard-image-banner {
+  height: 300px;
+background-repeat: no-repeat;
+background-position: center;
+ 
+  border-radius: 0px;
+  border: 5px solid #565656;
+  width: 100%;
+}

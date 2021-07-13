@@ -1,0 +1,46 @@
+.admission-content{
+    margin-top: 5.5rem;
+}
+.office_use{
+    font-size: 15px;
+    text-align: center;
+}
+.add-input-first{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+.container_content{
+    text-align: center;
+}
+.for_office_useOnly{
+    margin-left: 20px;
+}
+.signature{
+    text-align: center;
+    margin-right: -1rem;
+    margin-top: -24px;
+    margin-left: 65%;
+    font-size: 15px;
+    
+}
+.office_content{
+    margin: 2rem;
+    margin-right: 29rem;
+    border: 2px solid black;
+    margin-left: 5rem;
+    width: 70%;
+    height: 290px;
+   
+}
+.pic{
+    float: right;
+    margin-right: 65px;
+    margin-top: 45px;
+   border: 2px solid black;
+   height: 200px;
+   width: 150px;
+   text-align: center;
+   padding: 30px;
+   background-color: rgba(112, 153, 42, 0.616);;
+}

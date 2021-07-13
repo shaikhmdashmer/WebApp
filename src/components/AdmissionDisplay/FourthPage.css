@@ -1,0 +1,61 @@
+.Header-content{
+  background-color: rgba(112, 153, 42, 0.616);
+  padding: 10px;
+}
+.adm-form {
+    text-align: justify;
+    font-size: 2rem;
+  }
+  .dual-data{
+    border: 1px solid;
+    text-align: center;
+    font-size: 12px;
+  }
+  .second-Head {
+    float: right;
+    margin-right: 40px;
+    font-size: 2rem;
+  }
+  .sig-parent {
+    float: left;
+    font-family: cursive;
+    margin-left: 20px;
+  }
+  .sig-student {
+    float: right;
+    font-family: cursive;
+    margin-right: 20px;
+  }
+  .dotted {
+    border-bottom: 2px dashed black;
+    width: 100%;
+  }
+  .fee-p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: x-large;
+  }
+  .fee-table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  .fee-tableHead {
+    /* background-color: rgba(132, 170, 67, 0.616); */
+    border: 1px solid black;
+  }
+  .fee-tableData {
+    border: 1px solid black;
+    padding: 15px;
+  }
+  .table-input {
+    border: none;
+    border-bottom: none;
+    outline: none;
+  }
+  .sub-head {
+    float: right;
+  }
+  .note-content{
+    font-size: 2rem;
+  }

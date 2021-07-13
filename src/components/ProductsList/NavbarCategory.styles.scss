@@ -1,0 +1,66 @@
+.contentDiv {
+    text-align: center;
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+
+.contentDivSearch {
+    margin-top: 2rem;
+}
+
+.headerTitle {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 3.5em;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+}
+
+.buttonContent {
+    a:link,
+    a:visited {
+        background-color: white;
+        color: black;
+        font-size: 2.0em;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border: none;
+    }
+    a:hover,
+    a:active {
+        background-color: #000000 !important;
+        color: white!important;
+    }
+}
+
+.searchContentIcon {
+    border: black .007rem solid;
+    border-left: none;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 2.5rem;
+    padding: 0px;
+    margin: 0px;
+    svg {
+        color: gray;
+        padding: 0px;
+        margin: 0px;
+    }
+    svg:hover,
+    a:active {
+        color: #000000;
+    }
+}
+
+.searchContentInput {
+    border: #000000 solid .1rem;
+    border-right: none;
+    svg {
+        color: gray;
+    }
+    svg:hover,
+    a:active {
+        color: #000000;
+    }
+}

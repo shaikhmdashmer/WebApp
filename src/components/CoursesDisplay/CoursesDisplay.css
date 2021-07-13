@@ -1,0 +1,50 @@
+.img-card {
+    height: 450px;
+}
+
+.slider-content {
+    width: 650px;
+    height: 450px;
+}
+
+.slick-next {
+    margin: -15px;
+}
+
+.slick-prev {
+    margin: -15px;
+
+}
+
+.headerclass {
+    text-align: left;
+    color: black;
+    border-bottom: groove;
+
+}
+
+.cseimage {
+    width: 100%;
+    display: inline;
+    box-shadow: rgba(126, 95, 95, 0.3);
+
+}
+
+.details_withoutbullet {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+
+
+
+
+}
+
+.title_heading {
+    background-color: rgba(126, 95, 95, 0.3);
+    color: black;
+    text-align: left;
+    border-bottom: groove;
+    font-size: 21px;
+}

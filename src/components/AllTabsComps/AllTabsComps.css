@@ -1,0 +1,21 @@
+.TabsContainer {
+    padding-top: 5px;
+    
+}
+.TabsContainerParent {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray !important;
+}
+.TabsHeaderContainer {
+    border-bottom:  1px solid gray;
+}
+.react-tabs{
+    margin-left: 0.5rem;
+}
+.navbar-light .navbar-toggler{
+    margin: 0.5rem;
+}
+/* .col-lg-2{
+    padding-left: 0;
+} */

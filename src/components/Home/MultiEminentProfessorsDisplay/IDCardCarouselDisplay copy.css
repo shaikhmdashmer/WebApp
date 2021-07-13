@@ -1,0 +1,57 @@
+.place-IdCard{
+    width:98%;
+    margin: auto;
+    height: 35rem;
+    box-shadow: 0 25px 50px 0 rgb(33 30 30 / 20%);
+}
+.prof-title{
+    font-size: 2rem;
+    color: #fff;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.more-content{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+ a:hover{
+    color: #0e0d0d;
+    cursor: pointer;
+    text-decoration: none;
+}
+ 
+.idcard-details{
+    text-align: justify;
+    padding: 10px;
+    font-size: 13px;
+}
+.carousel .slide{
+    height: 20rem;
+}
+.carousel {
+    height: 23rem;
+}
+.carousel  thumbs-wrapper{
+    margin: 0px !important;
+}
+.prof-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: gray;
+}
+.employeecard-image-3{
+    border-radius: 0;
+}
+.employeecard-desk {
+    background: white;
+    margin:10px auto;
+    height: 150px;
+    background-size: 160px 160px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 3px solid #565656;
+    width: 150px;
+}

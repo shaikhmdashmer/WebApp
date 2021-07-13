@@ -1,0 +1,74 @@
+.place-IdCard-comp{
+    width:100%;
+    margin: auto;
+    background-color: #fafafa;
+    border-radius: 5px;
+    box-shadow: 0 25px 50px 0 rgb(33 30 30 / 20%);
+}
+.prof-title{
+    font-size: 2rem;
+    color: #fff;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.more-content{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.idcard-details{
+    text-align: justify;
+    padding: 10px;
+    font-size: 13px;
+}
+.img-card {
+    height: 15rem;
+}
+.img-card-prof{
+    height: 327px
+}
+.prof-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: gray;
+}
+.prof-title:hover {
+    font-weight: bolder;
+    color: white !important;
+}
+.employeecard-image-3{
+    border-radius: 0;
+}
+.employeecard-desk {
+    background: white;
+    margin:10px auto;
+    height: 150px;
+    background-size: 160px 160px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 3px solid #565656;
+    width: 150px;
+}
+.thumb{
+    height: 50px;
+}
+.thumbs-wrapper{
+    margin: 20px !important;
+    margin-left: 3rem !important;
+    margin-bottom: 5rem !important;
+}
+.slider-overlay-carousel {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:burlywood;
+    color: brown;
+    font-weight: bolder;
+}
+.carousel .control-dots .dot{
+    box-shadow: 0px 0px 0px rgb(0 0 0 / 90%) !important;
+    background: none;
+}

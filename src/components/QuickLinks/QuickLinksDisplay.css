@@ -1,0 +1,161 @@
+.news-element {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+
+}
+
+.news-border {
+    border-color: #53607a;
+    border-bottom-width: 1px !important;
+    border-bottom-style: solid;
+
+}
+
+.plr {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 90px;
+}
+
+.col-xl-4 {
+    padding-left: 0px !important;
+}
+
+.linkaffairs {
+    padding-left: 10px !important;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.linkaffairs:hover {
+    padding-left: 10px !important;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.background-img2 {
+    position: relative;
+    width: 100%;
+    height: 58rem;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-root {
+    margin-left: 0rem;
+}
+
+.carousel {
+    justify-content: center !important;
+    display: flex !important;
+    margin-top: 1rem;
+}
+
+
+.base-tab-list-3 {
+    position: absolute;
+    top: 6%;
+    left: 55%;
+    width: 100%;
+}
+
+.cheap-flight-col {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+}
+
+.bg-white {
+    background: #a52a2a !important;
+}
+
+.biz-hero-registration-form {
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 33%);
+    z-index: 2;
+    /* position: relative; */
+    border-radius: 20px;
+}
+
+.quick-registration-form {
+    width: 100%;
+}
+
+.quick-registration-form h4 {
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.flashicons .MuiSvgIcon-root {
+    color: #fff !important;
+}
+
+.fa-bolt-icon {
+    margin-right: 10px;
+}
+
+.quick-p {
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+
+}
+
+.quick-p i {
+    margin-right: 15px;
+}
+
+.quick-linkss {
+    margin-top: 20px;
+    text-align: left;
+
+}
+
+@media screen and (max-width: 992px) {
+    .base-tab-list-3 {
+        display: block;
+        top: 6%;
+        /* height: 200px; */
+        /* left: 20px; */
+        position: absolute;
+    }
+
+    .biz-hero-registration-form {
+        padding: 10px;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px 0 rgb(0 0 0 / 33%);
+        z-index: 1;
+        position: absolute;
+        border-radius: 20px;
+    }
+
+    .quick-registration-form h4 {
+        font-size: 15px;
+        line-height: 33px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .base-tab-list-3 {
+        position: relative;
+        top: 6%;
+        left: 20%;
+        width: 100%;
+    }
+
+}

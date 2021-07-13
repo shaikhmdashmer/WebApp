@@ -1,0 +1,28 @@
+.img-card{
+    margin: auto;
+    height: 400px;
+    width: 600px;
+}
+
+.slider-content{
+    width: 650px;
+    height: 450px;
+    margin: auto;
+}
+.slick-next{
+    margin: 8rem !important;
+    top: 38%;
+    position: absolute;
+    z-index: 1;
+}
+.slick-prev{
+    margin: 8rem !important;
+    top: 38%;
+    position: absolute;
+    z-index: 1;
+}
+.slick-slider{
+    margin: auto;
+}
+
+

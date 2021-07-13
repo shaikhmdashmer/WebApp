@@ -1,0 +1,21 @@
+.college-details{
+    display: flex;
+    /* margin: 3rem; */
+}
+.content{
+    margin: 3rem ;
+    /* width: 100%; */
+    font-size: 1.5rem;
+    display: flex;
+    border: none;
+    box-shadow: 0 0 10px black;
+}
+.card-title-content{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.content a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

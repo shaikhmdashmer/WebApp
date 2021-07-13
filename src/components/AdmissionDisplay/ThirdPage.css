@@ -1,0 +1,53 @@
+.Header-content{
+    background-color: rgba(112, 153, 42, 0.616);
+    padding: 10px;
+}
+.add-label{
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+}
+.add-input{
+    border: none;
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    outline: none;
+}
+
+/* --------------------third------------------- */
+.cet{
+    text-align: center;
+    font-weight: bolder;
+}
+.table-content{
+    width: 700px;
+    border: 1px solid black;
+    margin: auto;
+    
+}
+.table-content, th{
+    font-size: 2rem;
+    text-align: center;
+}
+.table-data{
+    border: none;
+    padding-top: 10px;
+    outline: none;
+    text-align: center;
+}
+.para{
+    font-size: 2rem;
+    margin: 10px;
+}
+.date-place{
+    margin: 10px;
+}
+.signat{
+    margin-left: 30px;
+    float: right;
+}
+/* --------order list------------- */
+.order , li{
+    font-size: 2rem;
+    margin-left: 20px;
+}

@@ -1,0 +1,210 @@
+
+.btn-div{
+    text-align: left;
+    background-color: brown !important;
+    color: #ffffff;
+    font-size: 15px;
+}
+.btn-div a{
+    text-align: left;
+    background-color: brown;
+    color: #ffffff;
+    font-weight: bold;
+    border: white 1px solid;
+}
+.btn-div a:hover{
+    text-align: left;
+    background-color: brown !important;
+    color: #ffffff;
+    font-weight: bold;
+    border-top: #ffffff 5px solid !important;
+    border-left: #ffffff 5px solid !important;
+}
+.activeTabs{
+    text-align: left;
+    background-color: brown !important;
+    color: #ffffff;
+    font-weight: bold;
+    border-top: #ffffff 5px solid !important;
+    border-right: #ffffff 5px solid !important;
+}
+.activeSubTabs{
+    /* background-color: burlywood !important; */
+    font-weight: bolder;
+    padding: .5rem !important;
+    border-bottom: burlywood 5px solid !important;
+    border-top: burlywood 5px solid !important;
+    background-color: gold !important;
+    border-top: #ffffff 5px solid !important;
+    border-left: #ffffff 5px solid !important;
+    border-bottom: #ffffff 5px solid !important;
+}
+.activeSuperTabs{
+    /* background-color: burlywood !important; */
+    font-weight: bolder;
+    padding: .5rem !important;
+    border-bottom: #E8C8C8 3px solid !important;
+    border-bottom-width: 7px !important;
+}
+.navbar-nav{
+    font-size: 15px;
+}
+.activeSubTabs{
+    background-color: burlywood !important;
+    font-weight: bold;
+    padding: .5rem !important;
+}
+.navbar-nav{
+    font-size: 15px;
+}
+.white-space{
+    margin-top: 90px;
+}
+
+.Button-press {
+    margin-top: 10px;
+    color: black;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    font-size: 16px !important;
+    font-weight: 500;
+    /* background-color: black !important; */
+    border: none !important;
+    box-shadow: none !important;
+}
+#nav-menu{
+    flex-direction: column;
+}
+.sub-item{
+    padding-left: 10px;
+}
+.Button-press:hover{
+    color: rgba(0,0,0,.7);
+}
+.btn-light {
+    background-color: none;
+}
+.Button-press:hover{
+    color: rgba(0,0,0,.7);
+}
+.btn-light {
+    background-color: none;
+}
+.navlinkclass {
+    /* margin-top: 5px; */
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    width: 100%;
+}
+
+.navBarToggle{
+    margin-left: 20px;
+}
+
+ol {
+    text-align: left;
+}
+.Menu {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    background: none;
+}
+.Sidebar-Menu {
+    width: 250px;
+    height: 600px;
+    margin-left: 2rem;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow-y: auto;
+
+}
+
+.navMenu.active {
+    left: 0;
+    transition: 500ms;
+}
+.nav-menu-hide{
+	display: none;
+}
+.nav-menu-display{
+	display: block;
+}
+
+.nav-menu {
+    background: none;
+    width: 250px;
+    /* height: 100vh; */
+    display: flex;
+    position: fixed;
+    /* top: 3rem; */
+    left: -100%;
+    transition: 10s;
+    justify-content: center;
+}
+
+.nav-sub-menu {
+    color: black;
+}
+.vertical-menu {
+    width: 250px;
+    height: 600px;
+    /* margin-left: 2rem; */
+    border: 1px solid gray; 
+    overflow-y: auto;
+  }
+  
+  .vertical-menu a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color:burlywood;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .slick-dots li{
+    display: inline-block;
+    width: 2rem !important;
+    height: 3rem !important;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background: burlywood;
+    color: white;
+    margin: 0.2rem !important;
+  }
+  .slick-active{
+    background: brown;
+    font-weight: bolder;
+  }
+  .slick-dots{
+    position: sticky; 
+  }
+  
+  .slick-next:before {
+    font-size: 50px !important;
+    color: burlywood  !important;
+
+}
+  .slick-prev:before {
+    font-size: 50px !important;
+    color: burlywood !important;
+
+}
+
+@media (max-width: 992px) {
+
+    .activeSuperTabs{
+        /* background-color: burlywood !important; */
+        border: none !important;
+   
+        padding: 0px !important;
+    }
+}

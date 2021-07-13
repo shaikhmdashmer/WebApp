@@ -1,0 +1,89 @@
+.place-IdCard-comp{
+    width:100%;
+    margin: auto;
+}
+.prof-title{
+    font-size: 2rem;
+    color: #fff;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.prof-title-comp{
+    font-size: 2rem;
+    color: #ee7c7c;
+    padding: 10px;
+}
+.more-content{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.idcard-details{
+    text-align: justify;
+    padding: 10px;
+    font-size: 13px;
+}
+.img-card {
+    height: 17rem;
+}
+.img-card-prof{
+    height: 300px;
+}
+.prof-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: gray;
+}
+.employeecard-image-3{
+    border-radius: 0;
+}
+.employeecard-desk {
+    background: white;
+    margin:10px auto;
+    height: 150px;
+    background-size: 160px 160px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 3px solid #565656;
+    width: 150px;
+}
+.thumb{
+    height: 50px;
+}
+
+.carousel .slider-wrapper{
+    margin-top: 0px;
+}
+.slider-overlay-carousel {
+    position: relative;
+    top: -14px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:#a52a2a;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.slider-overlay-carousel-comp {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    color: #a52a2a;
+    font-weight: bolder;
+    width: 100%;
+    font-size: 24px;
+    padding: 20px;
+}
+.carousel .control-dots .dot{
+    box-shadow: 0px 0px 0px rgb(0 0 0 / 90%) !important;
+    background: none;
+}

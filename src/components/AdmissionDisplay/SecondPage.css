@@ -1,0 +1,53 @@
+.admission_table_two{
+    font-size: 1rem;
+}
+.Header-content{
+    background-color: rgba(112, 153, 42, 0.616);
+    padding: 10px;
+}
+.add-input{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+.para{
+    font-size: 2rem;
+    margin: 10px;
+}
+
+
+label{
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+}
+.para_text{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.table_input{
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+#table_border{
+    
+    border-spacing: none !important;
+    margin:auto;
+}
+.table_row{
+    border: 1px solid black;
+    text-align: center;
+    font-size: 16px;
+}
+.table_row1{
+    width: 700px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 16px;
+    text-align: left;
+    padding: 4px;
+}

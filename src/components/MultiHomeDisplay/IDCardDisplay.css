@@ -1,0 +1,82 @@
+.place-IdCard{
+    width:98%;
+    margin: auto;
+    box-shadow: 0 0 10px #f8b153;
+}
+.prof-title{
+    font-size: 2rem;
+    color: #fff;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.prof-title-comp a{
+    color: #a52a2a;
+    padding-top:10px;
+}
+.more-content{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+ a:hover{
+    color: #0e0d0d;
+    cursor: pointer;
+    text-decoration: none;
+}
+.idcard-details{
+    text-align: justify;
+    padding: 10px;
+    font-size: 13px;
+}
+.employeecard-image-3{
+    border-radius: 0;
+}
+.employeecard-desk {
+    background: white;
+    margin:10px auto;
+    height: 150px;
+    background-size: 160px 160px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 3px solid #565656;
+    width: 150px;
+    border-radius: 5px;
+}
+
+
+.background-img-home {
+    /* position: relative; */
+    width: 100%;
+    height: 50rem !important;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slider-overlay-home-affairs {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #a52a2a !important;
+    /* opacity: 0.80 !important; */
+    color: #fff;
+    padding: 70px;
+}
+
+.m-height {
+    height: 25rem;
+    width: 100%;
+    margin-left: 0rem;
+}
+
+@media (max-width: 992px){
+    .slider-overlay-home-affairs{
+        border-radius: 0px;
+    }
+}

@@ -1,0 +1,27 @@
+.brand-name{
+    height: 100px;
+    transition: transform .2s;
+    padding-left: 10px;
+}
+.brand{
+    display: flex; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.png-logo {
+    position: absolute;
+    /* z-index: -1; */
+    float: left;
+    top: 10;
+    right: 5%;
+    padding: 10px;
+    animation: logomove 5s;
+    animation-direction: alternate-reverse;
+}
+/* .brand-name:hover{
+    transform: scale(1.1); 
+} */
+@keyframes logomove {
+    from {right: 83px;}
+    to {right: 200px;}
+  }
