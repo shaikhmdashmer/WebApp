@@ -16,7 +16,7 @@ export const FeaturedEmployeesList = () => {
       <Container>
         <Row>
           <Col>
-            <img src="images/StaffHome.jpg" alt="StaffHome" />
+            <img className="img-fluid" src="images/StaffHome.jpg" alt="StaffHome" />
           </Col>
         </Row>
       </Container>

@@ -206,7 +206,7 @@ export const Footer = (props) => {
               <div className="col-md-6 col-lg-5">
                 <p className="text-md-left copyright-text pb-0 mb-0">
                   Copyrights © 2020. All rights reserved by
-                  <a href="#"> Pickupbiz</a>
+                  <a href="#"> NSAKCET</a>
                 </p>
               </div>
               <div className="col-md-6 col-lg-7">
