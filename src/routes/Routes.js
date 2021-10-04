@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Link, Route ,useRouteMatch} from "react-router-dom";
 import { Home } from "../components/Home/Home";
 import {
   HomeCommonAboutUs,
@@ -13,6 +13,7 @@ import {
   HomeCommonExaminationCenter,
   HomeCommonRandDCell,
   HomeCommonContactUs,
+  HomeCommonDepartment1,
 } from "../components/Home/HomeCommonIndex";
 import { HomeCommon } from "../components/Home/HomeCommon";
 import { ProductsList } from "../components/ProductsList/ProductsList";
@@ -28,6 +29,10 @@ import { Services } from "../components/Services/Services";
 import { NavbarCategory } from "../components/ProductsList/NavbarCategory";
 import { ProductDetails } from "../components/ProductDetails/ProductDetails";
 import { EmployeeOverview } from "../components/Common/Employee/EmployeeOverview";
+import Civil from "../components/NewDepartment1/Civil";
+
+import {MechData,ElectricalData,CivilData,PetroliumData,InformationData,MasterData,ComputerData,ScienceData,ElectronicData} from '../components/NewDepartment1/data'
+
 
 const Routes = () => {
   return (
@@ -61,6 +66,23 @@ const Routes = () => {
       <Route path="/homecommon204" component={HomeCommonRandDCell} />
       <Route path="/homecommon136" component={HomeCommonContactUs} />
       <Route path="/homecommon" component={HomeCommon} />
+
+      
+      
+      <Route path="/mech" render={(props) => <Civil {...MechData} />} />
+      <Route path="/cse" render={(props) => <Civil {...ComputerData} />} />
+      <Route path="/civil" render={(props) => <Civil {...CivilData} />} />
+      <Route path="/eee" render={(props) => <Civil {...ElectricalData} />} />
+      <Route path="/pe" render={(props) => <Civil {...PetroliumData} />} />
+      <Route path="/it" render={(props) => <Civil {...InformationData} />} />
+      <Route path="/e&c" render={(props) => <Civil {...ElectronicData} />} />
+      <Route path="/mba" render={(props) => <Civil {...MasterData} />} />
+       <Route path="/s&h" render={(props) => <Civil {...ScienceData} />} />
+       
+      
+     
+      
+
     </Switch>
   );
 };

@@ -46,6 +46,7 @@ export const getComponentElement = (selectedCategory) => {
       return <OnlinePayments />;
     case "employeedetails":
       return <EmployeeDetails />;
+      
     default:
       return <h1>Welcome to Nawab Shah Alam</h1>;
   }

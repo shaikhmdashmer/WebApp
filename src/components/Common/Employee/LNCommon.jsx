@@ -46,7 +46,7 @@ export const LNCommon = () => {
     const filterCategoriesData = selector.filter(
       (cat) => cat.ParentId == currItem.CategoryId
     );
-    setLevel3(filterCategoriesData);
+    setLevel3(filterCategoriesData)
   };
   useEffect(() => {
     const filterCategoriesData = selector.filter(
@@ -60,6 +60,7 @@ export const LNCommon = () => {
       <Accordion activeKey={activeKey} className="Accordion2">
         {data &&
           data.map((item, index) => (
+            
             <Card key={index} className="card2">
               <CustomToggle
                 as={Card.Header}
@@ -114,10 +115,13 @@ export const LNCommon = () => {
                             variant="light"
                           >
                             {item2.CategoryName}
+                            
                           </Link>
+                          
                         </div>
                       </Card.Body>
                     ))}
+                  
                 </React.Fragment>
               </Accordion.Collapse>
             </Card>
