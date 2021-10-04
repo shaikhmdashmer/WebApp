@@ -38,7 +38,7 @@ export const ElectronicData = {
     heading:
       `Electronic and Communication engg`,
     paragraphOne: `Weather systems, traffic systems, environment sensors, emergency response, EV charging and more… Our Open Architecture gives you a full future-ready solution to interconnect a range of third-party Smart City and IoT applications in a secure manner.`,
-    buttonLabel: "View More",
+    buttonLabel: "View ",
 };
 
 export const MasterData = {
